@@ -27,3 +27,19 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
             console.log('FAILED...', error);
         });
 });
+
+
+
+// View resume in a new tab
+document.getElementById('resume-view-button').addEventListener('click', function () {
+    window.open('file:///D:/Download/Mummalar%20wilson%20(Resume).pdf', '_blank');
+});
+
+// Download resume
+/*document.getElementById('resume-download-button').addEventListener('click', function () {
+    const link = document.createElement('a');
+    link.href = 'resume.pdf'; // Path to your resume
+    link.download = 'Your_Name_Resume.pdf'; // Name of the downloaded file
+    link.click();
+});
+*/
