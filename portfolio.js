@@ -32,7 +32,7 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
 
 // View resume in a new tab
 document.getElementById('resume-view-button').addEventListener('click', function () {
-    window.open('file:///D:/Download/Mummalar%20wilson%20(Resume).pdf', '_blank');
+    window.open('file:///D:/Download/Resume.pdf', '_blank');
 });
 
 // Download resume
