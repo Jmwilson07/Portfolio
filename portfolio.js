@@ -32,7 +32,7 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
 
 // View resume in a new tab
 document.getElementById('resume-view-button').addEventListener('click', function () {
-    window.open('file:///D:/Download/Resume.pdf', '_blank');
+    window.open('https://drive.google.com/file/d/1GIC-Ws_9IYngdhfOitrljwzaucqnhyS1/view', '_blank');
 });
 
 // Download resume
